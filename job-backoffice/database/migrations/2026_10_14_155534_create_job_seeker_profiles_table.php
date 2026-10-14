@@ -13,7 +13,13 @@ return new class extends Migration
     {
         Schema::create('job_seeker_profiles', function (Blueprint $table) {
             $table->uuid('id')->primary();
-
+            $table->string('phone');
+            $table->string('location');
+            $table->text('bio');
+            $table->string('avatar_path')->nullable();
+            $table->string('linkedin_url')->nullable();
+            $table->string('github_url')->nullable();
+            $table->string('portfolio_url')->nullable();
             $table->timestamps();
         });
     }
