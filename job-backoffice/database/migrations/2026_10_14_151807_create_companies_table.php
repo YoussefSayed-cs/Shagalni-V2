@@ -12,8 +12,16 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('companies', function (Blueprint $table) {
-            $table->uuid();
-            $table->string
+            $table->uuid('id')->primary();
+            $table->string('name');
+            $table->text('description');
+            $table->string('logo-path')->nullable();
+            $table->string('indusrty');
+            $table->string('size');
+            $table->string('location');
+            $table->string('website');
+            $table->string('email');    
+            $table->string('phone');
             $table->timestamps();
         });
     }
