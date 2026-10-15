@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('work_experiences', function (Blueprint $table) {
             $table->uuid('id')->primary();
+            $table->foreignUuid('user_id')->constrained()->cascadeOnDelete();
             $table->string('company_name');
             $table->string('job_title');
             $table->date('start_date');
