@@ -16,10 +16,13 @@ return new class extends Migration
 
             $table->foreignUuid('job_vacancy_id')->constrained()->cascadeOnDelete();
             $table->foreignUuid('user_id')->constrained()->cascadeOnDelete();
-            $table->foreignUuid('resume_id')->constrained()->cascadeOnDelete();
+            $table->foreignUuid('resume_id')->nullable()->constrained()->nullOnDelete();
 
             $table->enum('status', ['pending', 'accepted', 'rejected'])->default('pending');
             $table->timestamps();
+            $table->softDeletes();
+
+            $table->unique(['job_vacancy_id', 'user_id']);
         });
     }
 
