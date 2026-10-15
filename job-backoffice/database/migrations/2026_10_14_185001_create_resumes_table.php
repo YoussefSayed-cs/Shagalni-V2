@@ -13,10 +13,11 @@ return new class extends Migration
     {
         Schema::create('resumes', function (Blueprint $table) {
             $table->uuid('id')->primary();
+            $table->foreignUuid('user_id')->constrained()->cascadeOnDelete();
             $table->string('original_name');
             $table->string('file_path');
             $table->timestamps();
-            $table->timestamp('deleted_at')->nullable(false);
+            $table->softDeletes();
         });
     }
 
