@@ -13,12 +13,13 @@ return new class extends Migration
     {
         Schema::create('educations', function (Blueprint $table) {
             $table->uuid('id')->primary();
+            $table->foreignUuid('user_id')->constrained()->cascadeOnDelete();
             $table->string('school');
             $table->string('degree');
             $table->string('field_of_study');
             $table->date('start_date');
             $table->date('end_date')->nullable();
-            $table->date('description')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }
