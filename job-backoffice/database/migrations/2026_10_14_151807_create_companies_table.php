@@ -13,16 +13,18 @@ return new class extends Migration
     {
         Schema::create('companies', function (Blueprint $table) {
             $table->uuid('id')->primary();
+            $table->foreignUuid('owner_id')->unique()->constrained('users')->cascadeOnDelete();
             $table->string('name');
             $table->text('description');
-            $table->string('logo-path')->nullable();
-            $table->string('indusrty');
+            $table->string('logo_path')->nullable();
+            $table->string('industry');
             $table->string('size');
             $table->string('location');
-            $table->string('website');
-            $table->string('email');    
-            $table->string('phone');
+            $table->string('website')->nullable();
+            $table->string('email');
+            $table->string('phone')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
