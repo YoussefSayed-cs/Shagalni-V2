@@ -1,0 +1,277 @@
+[
+    {
+        "email": "ahmed.hassan@example.com",
+        "profile": {
+            "phone": "+20 101 000 0001",
+            "location": "Cairo, Egypt",
+            "bio": "Computer Science student focused on Laravel and backend development.",
+            "avatar_path": null,
+            "linkedin_url": "https://linkedin.com/in/ahmed-hassan-test",
+            "github_url": "https://github.com/ahmed-hassan-test",
+            "portfolio_url": null
+        },
+        "skills": [
+            "PHP",
+            "Laravel",
+            "MySQL",
+            "Git",
+            "REST APIs"
+        ],
+        "educations": [
+            {
+                "school": "Cairo University",
+                "degree": "Bachelor of Science",
+                "field_of_study": "Computer Science",
+                "start_date": "2023-09-01",
+                "end_date": null,
+                "description": "Third year. Interested in backend and data."
+            }
+        ],
+        "work_experiences": [
+            {
+                "company_name": "Freelance",
+                "job_title": "Junior Web Developer",
+                "start_date": "2026-01-01",
+                "end_date": null,
+                "description": "Small Laravel websites for local clients."
+            }
+        ],
+        "resume": {
+            "original_name": "Ahmed_Hassan_CV.pdf",
+            "file_path": "resumes/ahmed-hassan-cv.pdf"
+        },
+        "saved_jobs": [
+            "Junior Laravel Developer",
+            "Data Analyst Intern"
+        ]
+    },
+    {
+        "email": "mona.adel@example.com",
+        "profile": {
+            "phone": "+20 101 000 0002",
+            "location": "Giza, Egypt",
+            "bio": "Product designer with a love for clean and accessible interfaces.",
+            "avatar_path": null,
+            "linkedin_url": "https://linkedin.com/in/mona-adel-test",
+            "github_url": null,
+            "portfolio_url": "https://monaadel.test"
+        },
+        "skills": [
+            "Figma",
+            "UI/UX Design",
+            "Communication"
+        ],
+        "educations": [
+            {
+                "school": "Helwan University",
+                "degree": "Bachelor of Fine Arts",
+                "field_of_study": "Graphic Design",
+                "start_date": "2016-09-01",
+                "end_date": "2020-06-30",
+                "description": null
+            }
+        ],
+        "work_experiences": [
+            {
+                "company_name": "Pixel Studio",
+                "job_title": "UI Designer",
+                "start_date": "2020-09-01",
+                "end_date": "2023-12-31",
+                "description": "Designed mobile app screens and design systems."
+            },
+            {
+                "company_name": "Orbit Apps",
+                "job_title": "Product Designer",
+                "start_date": "2024-02-01",
+                "end_date": null,
+                "description": "Owns design for a fintech mobile app."
+            }
+        ],
+        "resume": {
+            "original_name": "Mona_Adel_Portfolio.pdf",
+            "file_path": "resumes/mona-adel-portfolio.pdf"
+        },
+        "saved_jobs": [
+            "UI/UX Designer"
+        ]
+    },
+    {
+        "email": "youssef.tarek@example.com",
+        "profile": {
+            "phone": "+20 101 000 0003",
+            "location": "Cairo, Egypt",
+            "bio": "Full-stack developer with five years of experience in Laravel and Vue.",
+            "avatar_path": null,
+            "linkedin_url": "https://linkedin.com/in/youssef-tarek-test",
+            "github_url": "https://github.com/youssef-tarek-test",
+            "portfolio_url": null
+        },
+        "skills": [
+            "PHP",
+            "Laravel",
+            "Vue.js",
+            "MySQL",
+            "Docker",
+            "Git",
+            "REST APIs"
+        ],
+        "educations": [
+            {
+                "school": "Ain Shams University",
+                "degree": "Bachelor of Engineering",
+                "field_of_study": "Computer Engineering",
+                "start_date": "2015-09-01",
+                "end_date": "2020-06-30",
+                "description": null
+            }
+        ],
+        "work_experiences": [
+            {
+                "company_name": "Bright Soft",
+                "job_title": "Backend Developer",
+                "start_date": "2020-08-01",
+                "end_date": "2023-05-31",
+                "description": "Built REST APIs for e-commerce clients."
+            },
+            {
+                "company_name": "Cloudify",
+                "job_title": "Full-Stack Developer",
+                "start_date": "2023-06-01",
+                "end_date": null,
+                "description": "Laravel and Vue SaaS product."
+            }
+        ],
+        "resume": {
+            "original_name": "Youssef_Tarek_CV.pdf",
+            "file_path": "resumes/youssef-tarek-cv.pdf"
+        },
+        "saved_jobs": [
+            "Senior Full-Stack Engineer"
+        ]
+    },
+    {
+        "email": "nour.eldin@example.com",
+        "profile": {
+            "phone": "+20 101 000 0004",
+            "location": "Alexandria, Egypt",
+            "bio": "Recent graduate looking for an operations role in logistics.",
+            "avatar_path": null,
+            "linkedin_url": null,
+            "github_url": null,
+            "portfolio_url": null
+        },
+        "skills": [
+            "Excel",
+            "Communication",
+            "Project Management"
+        ],
+        "educations": [
+            {
+                "school": "Alexandria University",
+                "degree": "Bachelor of Commerce",
+                "field_of_study": "Business Administration",
+                "start_date": "2021-09-01",
+                "end_date": "2025-06-30",
+                "description": "Graduated with Very Good."
+            }
+        ],
+        "work_experiences": [
+            {
+                "company_name": "Port Services Co.",
+                "job_title": "Operations Intern",
+                "start_date": "2025-07-01",
+                "end_date": "2025-12-31",
+                "description": "Helped track container shipments."
+            }
+        ],
+        "resume": {
+            "original_name": "Nour_ElDin_CV.pdf",
+            "file_path": "resumes/nour-eldin-cv.pdf"
+        },
+        "saved_jobs": [
+            "Warehouse Operations Coordinator",
+            "Customer Support Agent"
+        ]
+    },
+    {
+        "email": "hana.samir@example.com",
+        "profile": {
+            "phone": "+20 101 000 0005",
+            "location": "Cairo, Egypt",
+            "bio": "Content writer and SEO enthusiast writing in Arabic and English.",
+            "avatar_path": null,
+            "linkedin_url": "https://linkedin.com/in/hana-samir-test",
+            "github_url": null,
+            "portfolio_url": "https://hanasamir.test"
+        },
+        "skills": [
+            "SEO",
+            "Content Writing",
+            "Communication"
+        ],
+        "educations": [
+            {
+                "school": "Cairo University",
+                "degree": "Bachelor of Arts",
+                "field_of_study": "Mass Communication",
+                "start_date": "2018-09-01",
+                "end_date": "2022-06-30",
+                "description": null
+            }
+        ],
+        "work_experiences": [
+            {
+                "company_name": "Word Wave",
+                "job_title": "Content Writer",
+                "start_date": "2022-09-01",
+                "end_date": null,
+                "description": "Blog and website content for several brands."
+            }
+        ],
+        "resume": {
+            "original_name": "Hana_Samir_CV.pdf",
+            "file_path": "resumes/hana-samir-cv.pdf"
+        },
+        "saved_jobs": [
+            "SEO & Content Specialist",
+            "Freelance Social Media Manager"
+        ]
+    },
+    {
+        "email": "mostafa.ali@example.com",
+        "profile": {
+            "phone": "+20 101 000 0006",
+            "location": "Mansoura, Egypt",
+            "bio": "Aspiring data analyst learning Python, SQL and machine learning.",
+            "avatar_path": null,
+            "linkedin_url": null,
+            "github_url": "https://github.com/mostafa-ali-test",
+            "portfolio_url": null
+        },
+        "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning",
+            "Excel"
+        ],
+        "educations": [
+            {
+                "school": "Mansoura University",
+                "degree": "Bachelor of Science",
+                "field_of_study": "Statistics",
+                "start_date": "2022-09-01",
+                "end_date": null,
+                "description": "Final year."
+            }
+        ],
+        "work_experiences": [],
+        "resume": {
+            "original_name": "Mostafa_Ali_CV.pdf",
+            "file_path": "resumes/mostafa-ali-cv.pdf"
+        },
+        "saved_jobs": [
+            "Data Analyst Intern"
+        ]
+    }
+]

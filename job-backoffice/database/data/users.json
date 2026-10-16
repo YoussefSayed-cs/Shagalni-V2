@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Admin Shagalni",
+        "email": "admin@shagalni.test",
+        "role": "admin"
+    },
+    {
+        "name": "Karim Nabil",
+        "email": "karim@niletech.test",
+        "role": "company_owner"
+    },
+    {
+        "name": "Salma Fathy",
+        "email": "salma@cairodigital.test",
+        "role": "company_owner"
+    },
+    {
+        "name": "Omar Mansour",
+        "email": "omar@deltalogistics.test",
+        "role": "company_owner"
+    },
+    {
+        "name": "Ahmed Hassan",
+        "email": "ahmed.hassan@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Mona Adel",
+        "email": "mona.adel@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Youssef Tarek",
+        "email": "youssef.tarek@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Nour El-Din",
+        "email": "nour.eldin@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Hana Samir",
+        "email": "hana.samir@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Mostafa Ali",
+        "email": "mostafa.ali@example.com",
+        "role": "job_seeker"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "owner_email": "karim@niletech.test",
+        "name": "Nile Tech Solutions",
+        "description": "Software house building web platforms and data products for clients across Egypt and the Gulf.",
+        "logo_path": "logos/nile-tech.png",
+        "industry": "Information Technology",
+        "size": "51-200",
+        "location": "Cairo, Egypt",
+        "website": "https://niletech.test",
+        "email": "hr@niletech.test",
+        "phone": "+20 100 000 0001"
+    },
+    {
+        "owner_email": "salma@cairodigital.test",
+        "name": "Cairo Digital Hub",
+        "description": "Digital marketing and creative agency helping local brands grow online.",
+        "logo_path": "logos/cairo-digital.png",
+        "industry": "Marketing & Advertising",
+        "size": "11-50",
+        "location": "Giza, Egypt",
+        "website": "https://cairodigital.test",
+        "email": "jobs@cairodigital.test",
+        "phone": "+20 100 000 0002"
+    },
+    {
+        "owner_email": "omar@deltalogistics.test",
+        "name": "Delta Logistics",
+        "description": "Regional logistics and supply-chain company with warehouses in Alexandria and Mansoura.",
+        "logo_path": null,
+        "industry": "Logistics",
+        "size": "201-500",
+        "location": "Alexandria, Egypt",
+        "website": null,
+        "email": "careers@deltalogistics.test",
+        "phone": null
+    }
+]

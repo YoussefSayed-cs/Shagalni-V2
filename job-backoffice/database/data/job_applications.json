@@ -1,0 +1,52 @@
+[
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "vacancy_title": "Junior Laravel Developer",
+        "status": "pending"
+    },
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "vacancy_title": "Data Analyst Intern",
+        "status": "rejected"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "vacancy_title": "Senior Full-Stack Engineer",
+        "status": "accepted"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "vacancy_title": "Junior Laravel Developer",
+        "status": "pending"
+    },
+    {
+        "user_email": "mona.adel@example.com",
+        "vacancy_title": "UI/UX Designer",
+        "status": "accepted"
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "vacancy_title": "Warehouse Operations Coordinator",
+        "status": "pending"
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "vacancy_title": "Customer Support Agent",
+        "status": "pending"
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "vacancy_title": "SEO & Content Specialist",
+        "status": "accepted"
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "vacancy_title": "Freelance Social Media Manager",
+        "status": "rejected"
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "vacancy_title": "Data Analyst Intern",
+        "status": "pending"
+    }
+]
