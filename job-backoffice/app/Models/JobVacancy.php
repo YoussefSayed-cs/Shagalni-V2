@@ -3,10 +3,11 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
-use Illuminate\Database\Eloquent\Concerns\SoftDeletes;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class JobVacancy extends Model
 {
@@ -15,13 +16,15 @@ class JobVacancy extends Model
     protected $table = 'job_vacancies';
 
     protected $fillable = [
+        'company_id',
+        'job_category_id',
         'title',
         'description',
-        'requirments',
+        'requirements',
         'responsibilities',
         'location',
         'type',
-        'workpalce_type',
+        'workplace_type',
         'experience_level',
         'salary_min',
         'salary_max',
@@ -38,6 +41,18 @@ class JobVacancy extends Model
             'application_deadline' => 'date',
             'published_at' => 'datetime',
         ];
+    }
+
+    /** @return BelongsTo<Company, $this> */
+    public function company(): BelongsTo
+    {
+        return $this->belongsTo(Company::class);
+    }
+
+    /** @return BelongsTo<JobCategory, $this> */
+    public function jobCategory(): BelongsTo
+    {
+        return $this->belongsTo(JobCategory::class, 'job_category_id');
     }
 
     /** @return HasMany<JobApplication, $this> */

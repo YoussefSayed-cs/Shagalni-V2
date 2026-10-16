@@ -3,14 +3,14 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
-use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\SoftDeletes as EloquentSoftDeletes;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Company extends Model
 {
-    use HasUuids , SoftDeletes ;
+    use HasUuids, SoftDeletes;
 
     protected $table = 'companies';
 
@@ -31,5 +31,11 @@ class Company extends Model
     public function owner(): BelongsTo
     {
         return $this->belongsTo(User::class, 'owner_id');
+    }
+
+    /** @return HasMany<JobVacancy, $this> */
+    public function jobVacancies(): HasMany
+    {
+        return $this->hasMany(JobVacancy::class);
     }
 }

@@ -6,11 +6,11 @@ use Database\Factories\UserFactory;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
-use Illuminate\Database\Eloquent\Concerns\SoftDeletes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
@@ -20,7 +20,7 @@ use Laravel\Fortify\PasskeyAuthenticatable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 
 /**
- * @property int $id
+ * @property string $id
  * @property string $name
  * @property string $email
  * @property Carbon|null $email_verified_at
@@ -93,7 +93,7 @@ class User extends Authenticatable implements MustVerifyEmail, PasskeyUser
     /** @return BelongsToMany<JobVacancy, $this> */
     public function savedJobs(): BelongsToMany
     {
-        return $this->belongsToMany(JobVacancy::class)->withTimestamps();
+        return $this->belongsToMany(JobVacancy::class, 'saved_jobs')->withTimestamps();
     }
 
     /** @return BelongsToMany<Skill, $this> */
