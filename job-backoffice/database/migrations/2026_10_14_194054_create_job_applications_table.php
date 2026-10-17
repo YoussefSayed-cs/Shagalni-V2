@@ -18,7 +18,15 @@ return new class extends Migration
             $table->foreignUuid('user_id')->constrained()->cascadeOnDelete();
             $table->foreignUuid('resume_id')->nullable()->constrained()->nullOnDelete();
 
-            $table->enum('status', ['pending', 'accepted', 'rejected'])->default('pending');
+            $table->enum('status', [
+                'pending',
+                'under_review',
+                'shortlisted',
+                'interview',
+                'accepted',
+                'rejected',
+                'withdrawn',
+            ])->default('pending');
             $table->timestamps();
             $table->softDeletes();
 

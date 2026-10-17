@@ -2,7 +2,7 @@
     {
         "user_email": "ahmed.hassan@example.com",
         "vacancy_title": "Junior Laravel Developer",
-        "status": "pending"
+        "status": "under_review"
     },
     {
         "user_email": "ahmed.hassan@example.com",
@@ -17,17 +17,17 @@
     {
         "user_email": "youssef.tarek@example.com",
         "vacancy_title": "Junior Laravel Developer",
-        "status": "pending"
+        "status": "shortlisted"
     },
     {
         "user_email": "mona.adel@example.com",
         "vacancy_title": "UI/UX Designer",
-        "status": "accepted"
+        "status": "interview"
     },
     {
         "user_email": "nour.eldin@example.com",
         "vacancy_title": "Warehouse Operations Coordinator",
-        "status": "pending"
+        "status": "withdrawn"
     },
     {
         "user_email": "nour.eldin@example.com",

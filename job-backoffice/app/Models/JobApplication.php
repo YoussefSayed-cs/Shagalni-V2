@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\JobApplicationStatus;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -19,6 +20,13 @@ class JobApplication extends Model
         'resume_id',
         'status',
     ];
+
+    protected function casts(): array
+    {
+        return [
+            'status' => JobApplicationStatus::class,
+        ];
+    }
 
     /** @return BelongsTo<JobVacancy, $this> */
     public function jobVacancy(): BelongsTo
