@@ -1,0 +1,86 @@
+[
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "vacancy_title": "Junior Laravel Developer"
+    },
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "vacancy_title": "Data Analyst Intern"
+    },
+    {
+        "user_email": "mona.adel@example.com",
+        "vacancy_title": "UI/UX Designer"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "vacancy_title": "Senior Full-Stack Engineer"
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "vacancy_title": "Warehouse Operations Coordinator"
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "vacancy_title": "Customer Support Agent"
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "vacancy_title": "SEO & Content Specialist"
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "vacancy_title": "Freelance Social Media Manager"
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "vacancy_title": "Data Analyst Intern"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "vacancy_title": "Frontend React Developer"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "vacancy_title": "Node.js API Developer"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "vacancy_title": "Customer Success Supervisor"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "vacancy_title": "Logistics Data Coordinator"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "vacancy_title": "Junior Financial Analyst"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "vacancy_title": "Accounts Payable Specialist"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "vacancy_title": "Talent Acquisition Specialist"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "vacancy_title": "HR Operations Intern"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "vacancy_title": "Performance Marketing Specialist"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "vacancy_title": "SEO & Content Specialist"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "vacancy_title": "Logistics Data Coordinator"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "vacancy_title": "Data Analyst Intern"
+    }
+]
