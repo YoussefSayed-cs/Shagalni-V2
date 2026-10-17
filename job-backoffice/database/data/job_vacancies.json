@@ -14,14 +14,7 @@
         "salary_max": 18000,
         "status": "open",
         "application_deadline": "2026-12-31",
-        "published_at": "2026-10-01 09:00:00",
-        "skills": [
-            "PHP",
-            "Laravel",
-            "MySQL",
-            "Git",
-            "REST APIs"
-        ]
+        "published_at": "2026-10-01 09:00:00"
     },
     {
         "company_email": "hr@niletech.test",
@@ -38,15 +31,7 @@
         "salary_max": 70000,
         "status": "open",
         "application_deadline": "2026-12-15",
-        "published_at": "2026-09-20 10:30:00",
-        "skills": [
-            "PHP",
-            "Laravel",
-            "Vue.js",
-            "Docker",
-            "MySQL",
-            "REST APIs"
-        ]
+        "published_at": "2026-09-20 10:30:00"
     },
     {
         "company_email": "hr@niletech.test",
@@ -63,13 +48,7 @@
         "salary_max": 6000,
         "status": "open",
         "application_deadline": "2026-11-30",
-        "published_at": "2026-10-05 12:00:00",
-        "skills": [
-            "Python",
-            "SQL",
-            "Pandas",
-            "Excel"
-        ]
+        "published_at": "2026-10-05 12:00:00"
     },
     {
         "company_email": "hr@niletech.test",
@@ -86,13 +65,7 @@
         "salary_max": 45000,
         "status": "draft",
         "application_deadline": null,
-        "published_at": null,
-        "skills": [
-            "Python",
-            "Machine Learning",
-            "SQL",
-            "Docker"
-        ]
+        "published_at": null
     },
     {
         "company_email": "jobs@cairodigital.test",
@@ -109,12 +82,7 @@
         "salary_max": 28000,
         "status": "open",
         "application_deadline": "2026-12-20",
-        "published_at": "2026-10-08 11:00:00",
-        "skills": [
-            "Figma",
-            "UI/UX Design",
-            "Communication"
-        ]
+        "published_at": "2026-10-08 11:00:00"
     },
     {
         "company_email": "jobs@cairodigital.test",
@@ -131,12 +99,7 @@
         "salary_max": 12000,
         "status": "open",
         "application_deadline": "2026-11-25",
-        "published_at": "2026-10-10 09:30:00",
-        "skills": [
-            "SEO",
-            "Content Writing",
-            "Communication"
-        ]
+        "published_at": "2026-10-10 09:30:00"
     },
     {
         "company_email": "jobs@cairodigital.test",
@@ -153,11 +116,7 @@
         "salary_max": 9000,
         "status": "closed",
         "application_deadline": "2026-09-30",
-        "published_at": "2026-08-15 08:00:00",
-        "skills": [
-            "Content Writing",
-            "Communication"
-        ]
+        "published_at": "2026-08-15 08:00:00"
     },
     {
         "company_email": "careers@deltalogistics.test",
@@ -174,12 +133,7 @@
         "salary_max": 15000,
         "status": "open",
         "application_deadline": "2026-12-10",
-        "published_at": "2026-10-02 07:30:00",
-        "skills": [
-            "Excel",
-            "Communication",
-            "Project Management"
-        ]
+        "published_at": "2026-10-02 07:30:00"
     },
     {
         "company_email": "careers@deltalogistics.test",
@@ -196,10 +150,176 @@
         "salary_max": 9500,
         "status": "open",
         "application_deadline": "2026-11-20",
-        "published_at": "2026-10-12 08:30:00",
-        "skills": [
-            "Communication",
-            "Excel"
-        ]
+        "published_at": "2026-10-12 08:30:00"
+    },
+    {
+        "company_email": "hr@niletech.test",
+        "category": "Software Development",
+        "title": "Frontend React Developer",
+        "description": "Build responsive dashboard and customer-facing interfaces for our SaaS products.",
+        "requirements": "Two years of JavaScript and React experience. Comfortable consuming REST APIs and using Git.",
+        "responsibilities": "Implement product screens, collaborate with designers, and maintain reusable frontend components.",
+        "location": "Cairo, Egypt",
+        "type": "full-time",
+        "workplace_type": "hybrid",
+        "experience_level": "junior",
+        "salary_min": 18000,
+        "salary_max": 26000,
+        "status": "open",
+        "application_deadline": "2027-01-15",
+        "published_at": "2026-10-14 09:00:00"
+    },
+    {
+        "company_email": "hr@niletech.test",
+        "category": "Software Development",
+        "title": "Node.js API Developer",
+        "description": "Develop reliable Node.js services that support integrations and high-volume workflows.",
+        "requirements": "Experience with Node.js, TypeScript, SQL, and REST API design.",
+        "responsibilities": "Build API endpoints, document integrations, and improve observability for backend services.",
+        "location": "Cairo, Egypt",
+        "type": "full-time",
+        "workplace_type": "remote",
+        "experience_level": "mid-level",
+        "salary_min": 28000,
+        "salary_max": 40000,
+        "status": "open",
+        "application_deadline": "2027-01-22",
+        "published_at": "2026-10-15 10:00:00"
+    },
+    {
+        "company_email": "jobs@cairodigital.test",
+        "category": "Marketing & Sales",
+        "title": "Performance Marketing Specialist",
+        "description": "Plan and optimize paid and organic acquisition campaigns for regional consumer brands.",
+        "requirements": "Hands-on campaign reporting, Google Analytics, content planning, and clear communication skills.",
+        "responsibilities": "Manage weekly performance reports, propose experiments, and coordinate campaign content with designers.",
+        "location": "Giza, Egypt",
+        "type": "full-time",
+        "workplace_type": "hybrid",
+        "experience_level": "mid-level",
+        "salary_min": 16000,
+        "salary_max": 24000,
+        "status": "open",
+        "application_deadline": "2027-01-10",
+        "published_at": "2026-10-13 11:00:00"
+    },
+    {
+        "company_email": "jobs@cairodigital.test",
+        "category": "Design & Creative",
+        "title": "Visual Design Intern",
+        "description": "Support social, campaign, and presentation design work alongside our creative team.",
+        "requirements": "A portfolio that shows visual design fundamentals and familiarity with Figma.",
+        "responsibilities": "Prepare campaign assets, adapt templates, and organize design files for client teams.",
+        "location": "Giza, Egypt",
+        "type": "internship",
+        "workplace_type": "on-site",
+        "experience_level": "entry-level",
+        "salary_min": 3500,
+        "salary_max": 5000,
+        "status": "open",
+        "application_deadline": "2026-12-18",
+        "published_at": "2026-10-16 09:30:00"
+    },
+    {
+        "company_email": "careers@deltalogistics.test",
+        "category": "Operations & Logistics",
+        "title": "Logistics Data Coordinator",
+        "description": "Turn daily warehouse and delivery data into practical reports for the operations team.",
+        "requirements": "Strong Excel and SQL skills. Familiarity with Power BI and logistics metrics is preferred.",
+        "responsibilities": "Clean operational data, publish daily dashboards, and flag delivery or inventory trends.",
+        "location": "Alexandria, Egypt",
+        "type": "full-time",
+        "workplace_type": "on-site",
+        "experience_level": "entry-level",
+        "salary_min": 11000,
+        "salary_max": 16000,
+        "status": "open",
+        "application_deadline": "2027-01-05",
+        "published_at": "2026-10-14 08:00:00"
+    },
+    {
+        "company_email": "careers@deltalogistics.test",
+        "category": "Customer Support",
+        "title": "Customer Success Supervisor",
+        "description": "Coach a small support team serving business customers across delivery and fulfillment accounts.",
+        "requirements": "Customer-service experience, CRM familiarity, and strong communication and reporting skills.",
+        "responsibilities": "Review support quality, monitor customer issues, and coordinate service improvements with operations.",
+        "location": "Alexandria, Egypt",
+        "type": "full-time",
+        "workplace_type": "hybrid",
+        "experience_level": "mid-level",
+        "salary_min": 15000,
+        "salary_max": 22000,
+        "status": "open",
+        "application_deadline": "2027-01-12",
+        "published_at": "2026-10-15 08:30:00"
+    },
+    {
+        "company_email": "careers@atlasfinance.test",
+        "category": "Finance & Accounting",
+        "title": "Junior Financial Analyst",
+        "description": "Support monthly reporting, budgeting, and business-performance analysis for finance clients.",
+        "requirements": "A finance, accounting, or business degree with strong Excel and financial-modeling skills.",
+        "responsibilities": "Prepare reports, maintain planning models, and summarize financial performance for managers.",
+        "location": "New Cairo, Egypt",
+        "type": "full-time",
+        "workplace_type": "hybrid",
+        "experience_level": "entry-level",
+        "salary_min": 13000,
+        "salary_max": 19000,
+        "status": "open",
+        "application_deadline": "2027-01-20",
+        "published_at": "2026-10-14 10:15:00"
+    },
+    {
+        "company_email": "careers@atlasfinance.test",
+        "category": "Finance & Accounting",
+        "title": "Accounts Payable Specialist",
+        "description": "Maintain supplier invoices and payment records for a portfolio of growing businesses.",
+        "requirements": "Practical accounting knowledge, attention to detail, and proficiency with Excel and Microsoft Office.",
+        "responsibilities": "Reconcile invoices, prepare payment schedules, and respond to supplier-account queries.",
+        "location": "New Cairo, Egypt",
+        "type": "full-time",
+        "workplace_type": "on-site",
+        "experience_level": "junior",
+        "salary_min": 12000,
+        "salary_max": 17000,
+        "status": "open",
+        "application_deadline": "2027-01-08",
+        "published_at": "2026-10-16 10:30:00"
+    },
+    {
+        "company_email": "hello@peoplefirst.test",
+        "category": "Human Resources",
+        "title": "Talent Acquisition Specialist",
+        "description": "Run end-to-end hiring campaigns for technology, finance, and operations clients.",
+        "requirements": "Recruitment experience, proactive sourcing, and confidence working with an applicant tracking system.",
+        "responsibilities": "Source candidates, coordinate interviews, manage pipelines, and report hiring progress to clients.",
+        "location": "Maadi, Cairo, Egypt",
+        "type": "full-time",
+        "workplace_type": "hybrid",
+        "experience_level": "mid-level",
+        "salary_min": 17000,
+        "salary_max": 25000,
+        "status": "open",
+        "application_deadline": "2027-01-18",
+        "published_at": "2026-10-14 12:00:00"
+    },
+    {
+        "company_email": "hello@peoplefirst.test",
+        "category": "Human Resources",
+        "title": "HR Operations Intern",
+        "description": "Learn the foundations of onboarding, employee records, and people-operations support.",
+        "requirements": "A current HR, business, or psychology student with organized Microsoft Office skills.",
+        "responsibilities": "Assist with onboarding checklists, maintain employee records, and prepare simple HR reports.",
+        "location": "Maadi, Cairo, Egypt",
+        "type": "internship",
+        "workplace_type": "on-site",
+        "experience_level": "entry-level",
+        "salary_min": 4000,
+        "salary_max": 6000,
+        "status": "open",
+        "application_deadline": "2027-01-25",
+        "published_at": "2026-10-16 12:30:00"
     }
 ]
