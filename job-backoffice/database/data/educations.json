@@ -1,0 +1,110 @@
+[
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "school": "Cairo University",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_date": "2023-09-01",
+        "end_date": null,
+        "description": "Third year. Interested in backend and data."
+    },
+    {
+        "user_email": "mona.adel@example.com",
+        "school": "Helwan University",
+        "degree": "Bachelor of Fine Arts",
+        "field_of_study": "Graphic Design",
+        "start_date": "2016-09-01",
+        "end_date": "2020-06-30",
+        "description": null
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "school": "Ain Shams University",
+        "degree": "Bachelor of Engineering",
+        "field_of_study": "Computer Engineering",
+        "start_date": "2015-09-01",
+        "end_date": "2020-06-30",
+        "description": null
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "school": "Alexandria University",
+        "degree": "Bachelor of Commerce",
+        "field_of_study": "Business Administration",
+        "start_date": "2021-09-01",
+        "end_date": "2025-06-30",
+        "description": "Graduated with Very Good."
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "school": "Cairo University",
+        "degree": "Bachelor of Arts",
+        "field_of_study": "Mass Communication",
+        "start_date": "2018-09-01",
+        "end_date": "2022-06-30",
+        "description": null
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "school": "Mansoura University",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Statistics",
+        "start_date": "2022-09-01",
+        "end_date": null,
+        "description": "Final year."
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "school": "German University in Cairo",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Media Engineering and Technology",
+        "start_date": "2018-09-01",
+        "end_date": "2022-06-30",
+        "description": "Graduation project focused on an accessible e-commerce interface."
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "school": "Arab Academy for Science, Technology and Maritime Transport",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Logistics and Supply Chain Management",
+        "start_date": "2017-09-01",
+        "end_date": "2021-06-30",
+        "description": null
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "school": "Cairo University",
+        "degree": "Bachelor of Commerce",
+        "field_of_study": "Accounting",
+        "start_date": "2018-09-01",
+        "end_date": "2022-06-30",
+        "description": "Graduated with a concentration in financial accounting and reporting."
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "school": "Helwan University",
+        "degree": "Bachelor of Arts",
+        "field_of_study": "Psychology",
+        "start_date": "2017-09-01",
+        "end_date": "2021-06-30",
+        "description": null
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "school": "The British University in Egypt",
+        "degree": "Bachelor of Arts",
+        "field_of_study": "Business Administration",
+        "start_date": "2018-09-01",
+        "end_date": "2022-06-30",
+        "description": "Completed digital-marketing electives and a campaign analytics capstone."
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "school": "Mansoura University",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Information Systems",
+        "start_date": "2018-09-01",
+        "end_date": "2022-06-30",
+        "description": null
+    }
+]
