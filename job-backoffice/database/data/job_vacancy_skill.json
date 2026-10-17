@@ -1,0 +1,190 @@
+[
+    {
+        "company_email": "hr@niletech.test",
+        "vacancy_title": "Junior Laravel Developer",
+        "skills": [
+            "PHP",
+            "Laravel",
+            "MySQL",
+            "Git",
+            "REST APIs"
+        ]
+    },
+    {
+        "company_email": "hr@niletech.test",
+        "vacancy_title": "Senior Full-Stack Engineer",
+        "skills": [
+            "PHP",
+            "Laravel",
+            "Vue.js",
+            "Docker",
+            "MySQL",
+            "REST APIs"
+        ]
+    },
+    {
+        "company_email": "hr@niletech.test",
+        "vacancy_title": "Data Analyst Intern",
+        "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Excel"
+        ]
+    },
+    {
+        "company_email": "hr@niletech.test",
+        "vacancy_title": "Machine Learning Engineer",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Docker"
+        ]
+    },
+    {
+        "company_email": "jobs@cairodigital.test",
+        "vacancy_title": "UI/UX Designer",
+        "skills": [
+            "Figma",
+            "UI/UX Design",
+            "Communication"
+        ]
+    },
+    {
+        "company_email": "jobs@cairodigital.test",
+        "vacancy_title": "SEO & Content Specialist",
+        "skills": [
+            "SEO",
+            "Content Writing",
+            "Communication"
+        ]
+    },
+    {
+        "company_email": "jobs@cairodigital.test",
+        "vacancy_title": "Freelance Social Media Manager",
+        "skills": [
+            "Content Writing",
+            "Communication"
+        ]
+    },
+    {
+        "company_email": "careers@deltalogistics.test",
+        "vacancy_title": "Warehouse Operations Coordinator",
+        "skills": [
+            "Excel",
+            "Communication",
+            "Project Management"
+        ]
+    },
+    {
+        "company_email": "careers@deltalogistics.test",
+        "vacancy_title": "Customer Support Agent",
+        "skills": [
+            "Communication",
+            "Excel"
+        ]
+    },
+    {
+        "company_email": "hr@niletech.test",
+        "vacancy_title": "Frontend React Developer",
+        "skills": [
+            "JavaScript",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Git",
+            "REST APIs"
+        ]
+    },
+    {
+        "company_email": "hr@niletech.test",
+        "vacancy_title": "Node.js API Developer",
+        "skills": [
+            "Node.js",
+            "TypeScript",
+            "SQL",
+            "Docker",
+            "REST APIs"
+        ]
+    },
+    {
+        "company_email": "jobs@cairodigital.test",
+        "vacancy_title": "Performance Marketing Specialist",
+        "skills": [
+            "SEO",
+            "Content Writing",
+            "Google Analytics",
+            "Communication"
+        ]
+    },
+    {
+        "company_email": "jobs@cairodigital.test",
+        "vacancy_title": "Visual Design Intern",
+        "skills": [
+            "Figma",
+            "UI/UX Design",
+            "Communication"
+        ]
+    },
+    {
+        "company_email": "careers@deltalogistics.test",
+        "vacancy_title": "Logistics Data Coordinator",
+        "skills": [
+            "Excel",
+            "SQL",
+            "Power BI",
+            "Supply Chain"
+        ]
+    },
+    {
+        "company_email": "careers@deltalogistics.test",
+        "vacancy_title": "Customer Success Supervisor",
+        "skills": [
+            "Customer Service",
+            "CRM",
+            "Communication",
+            "Excel"
+        ]
+    },
+    {
+        "company_email": "careers@atlasfinance.test",
+        "vacancy_title": "Junior Financial Analyst",
+        "skills": [
+            "Excel",
+            "Financial Modeling",
+            "Accounting",
+            "Power BI"
+        ]
+    },
+    {
+        "company_email": "careers@atlasfinance.test",
+        "vacancy_title": "Accounts Payable Specialist",
+        "skills": [
+            "Accounting",
+            "Excel",
+            "Microsoft Office",
+            "Communication"
+        ]
+    },
+    {
+        "company_email": "hello@peoplefirst.test",
+        "vacancy_title": "Talent Acquisition Specialist",
+        "skills": [
+            "Recruitment",
+            "Talent Sourcing",
+            "Applicant Tracking Systems",
+            "Communication"
+        ]
+    },
+    {
+        "company_email": "hello@peoplefirst.test",
+        "vacancy_title": "HR Operations Intern",
+        "skills": [
+            "Microsoft Office",
+            "Recruitment",
+            "Payroll",
+            "Communication"
+        ]
+    }
+]
