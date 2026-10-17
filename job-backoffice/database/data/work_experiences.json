@@ -1,0 +1,122 @@
+[
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "company_name": "Freelance",
+        "job_title": "Junior Web Developer",
+        "start_date": "2026-01-01",
+        "end_date": null,
+        "description": "Small Laravel websites for local clients."
+    },
+    {
+        "user_email": "mona.adel@example.com",
+        "company_name": "Pixel Studio",
+        "job_title": "UI Designer",
+        "start_date": "2020-09-01",
+        "end_date": "2023-12-31",
+        "description": "Designed mobile app screens and design systems."
+    },
+    {
+        "user_email": "mona.adel@example.com",
+        "company_name": "Orbit Apps",
+        "job_title": "Product Designer",
+        "start_date": "2024-02-01",
+        "end_date": null,
+        "description": "Owns design for a fintech mobile app."
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "company_name": "Bright Soft",
+        "job_title": "Backend Developer",
+        "start_date": "2020-08-01",
+        "end_date": "2023-05-31",
+        "description": "Built REST APIs for e-commerce clients."
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "company_name": "Cloudify",
+        "job_title": "Full-Stack Developer",
+        "start_date": "2023-06-01",
+        "end_date": null,
+        "description": "Laravel and Vue SaaS product."
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "company_name": "Port Services Co.",
+        "job_title": "Operations Intern",
+        "start_date": "2025-07-01",
+        "end_date": "2025-12-31",
+        "description": "Helped track container shipments."
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "company_name": "Word Wave",
+        "job_title": "Content Writer",
+        "start_date": "2022-09-01",
+        "end_date": null,
+        "description": "Blog and website content for several brands."
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "company_name": "Studio North",
+        "job_title": "Frontend Developer",
+        "start_date": "2023-02-01",
+        "end_date": null,
+        "description": "Built React dashboards and shared UI components for small business products."
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "company_name": "Harbor Delivery",
+        "job_title": "Customer Support Representative",
+        "start_date": "2022-03-01",
+        "end_date": "2024-08-31",
+        "description": "Resolved delivery issues and maintained customer cases in a CRM."
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "company_name": "Swift Cart",
+        "job_title": "Operations Support Specialist",
+        "start_date": "2024-09-01",
+        "end_date": null,
+        "description": "Coordinates customer escalations and daily delivery exception reports."
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "company_name": "Ledger Works",
+        "job_title": "Junior Accounts Assistant",
+        "start_date": "2023-01-01",
+        "end_date": null,
+        "description": "Prepared invoice reconciliations and monthly Excel reporting packs."
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "company_name": "Talent Bridge",
+        "job_title": "Recruitment Coordinator",
+        "start_date": "2022-02-01",
+        "end_date": "2024-03-31",
+        "description": "Scheduled interviews, maintained candidate records, and supported sourcing campaigns."
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "company_name": "Scale Up Egypt",
+        "job_title": "Talent Acquisition Associate",
+        "start_date": "2024-04-01",
+        "end_date": null,
+        "description": "Sources technology and operations candidates for fast-growing teams."
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "company_name": "Orange Leaf Media",
+        "job_title": "Digital Marketing Executive",
+        "start_date": "2022-10-01",
+        "end_date": null,
+        "description": "Plans content, monitors campaign performance, and prepares monthly client reports."
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "company_name": "Numbers Lab",
+        "job_title": "Reporting Analyst",
+        "start_date": "2023-05-01",
+        "end_date": null,
+        "description": "Automates recurring reports and builds dashboards for retail operations clients."
+    }
+]
