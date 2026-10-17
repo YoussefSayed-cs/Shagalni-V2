@@ -1,0 +1,234 @@
+[
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "skill": "PHP"
+    },
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "skill": "Laravel"
+    },
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "skill": "MySQL"
+    },
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "skill": "Git"
+    },
+    {
+        "user_email": "ahmed.hassan@example.com",
+        "skill": "REST APIs"
+    },
+    {
+        "user_email": "mona.adel@example.com",
+        "skill": "Figma"
+    },
+    {
+        "user_email": "mona.adel@example.com",
+        "skill": "UI/UX Design"
+    },
+    {
+        "user_email": "mona.adel@example.com",
+        "skill": "Communication"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "skill": "PHP"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "skill": "Laravel"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "skill": "Vue.js"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "skill": "MySQL"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "skill": "Docker"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "skill": "Git"
+    },
+    {
+        "user_email": "youssef.tarek@example.com",
+        "skill": "REST APIs"
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "skill": "Excel"
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "skill": "Communication"
+    },
+    {
+        "user_email": "nour.eldin@example.com",
+        "skill": "Project Management"
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "skill": "SEO"
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "skill": "Content Writing"
+    },
+    {
+        "user_email": "hana.samir@example.com",
+        "skill": "Communication"
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "skill": "Python"
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "skill": "SQL"
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "skill": "Pandas"
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "skill": "Machine Learning"
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "skill": "Excel"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "skill": "JavaScript"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "skill": "React"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "skill": "TypeScript"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "skill": "Tailwind CSS"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "skill": "Git"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "skill": "REST APIs"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "skill": "Excel"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "skill": "Customer Service"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "skill": "CRM"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "skill": "Communication"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "skill": "Supply Chain"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "skill": "Excel"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "skill": "Power BI"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "skill": "Financial Modeling"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "skill": "Accounting"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "skill": "Microsoft Office"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "skill": "Recruitment"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "skill": "Talent Sourcing"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "skill": "Applicant Tracking Systems"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "skill": "Communication"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "skill": "Microsoft Office"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "skill": "SEO"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "skill": "Content Writing"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "skill": "Google Analytics"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "skill": "Figma"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "skill": "Communication"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "skill": "Python"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "skill": "SQL"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "skill": "Pandas"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "skill": "Power BI"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "skill": "Tableau"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "skill": "Excel"
+    }
+]
