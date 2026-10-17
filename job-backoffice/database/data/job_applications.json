@@ -48,5 +48,90 @@
         "user_email": "mostafa.ali@example.com",
         "vacancy_title": "Data Analyst Intern",
         "status": "pending"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "vacancy_title": "Frontend React Developer",
+        "status": "interview"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "vacancy_title": "Node.js API Developer",
+        "status": "under_review"
+    },
+    {
+        "user_email": "sara.maher@example.com",
+        "vacancy_title": "Junior Laravel Developer",
+        "status": "rejected"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "vacancy_title": "Customer Success Supervisor",
+        "status": "shortlisted"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "vacancy_title": "Logistics Data Coordinator",
+        "status": "under_review"
+    },
+    {
+        "user_email": "khaled.amin@example.com",
+        "vacancy_title": "Customer Support Agent",
+        "status": "pending"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "vacancy_title": "Junior Financial Analyst",
+        "status": "interview"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "vacancy_title": "Accounts Payable Specialist",
+        "status": "shortlisted"
+    },
+    {
+        "user_email": "dina.mostafa@example.com",
+        "vacancy_title": "Data Analyst Intern",
+        "status": "rejected"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "vacancy_title": "Talent Acquisition Specialist",
+        "status": "accepted"
+    },
+    {
+        "user_email": "mahmoud.fawzy@example.com",
+        "vacancy_title": "HR Operations Intern",
+        "status": "pending"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "vacancy_title": "Performance Marketing Specialist",
+        "status": "interview"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "vacancy_title": "SEO & Content Specialist",
+        "status": "shortlisted"
+    },
+    {
+        "user_email": "reem.nassar@example.com",
+        "vacancy_title": "Visual Design Intern",
+        "status": "rejected"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "vacancy_title": "Logistics Data Coordinator",
+        "status": "accepted"
+    },
+    {
+        "user_email": "amr.saeed@example.com",
+        "vacancy_title": "Data Analyst Intern",
+        "status": "under_review"
+    },
+    {
+        "user_email": "mostafa.ali@example.com",
+        "vacancy_title": "Logistics Data Coordinator",
+        "status": "pending"
     }
 ]
