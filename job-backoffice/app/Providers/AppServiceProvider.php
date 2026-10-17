@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->configureDefaults();
         Model::shouldBeStrict();
-        Model::preventLazyLoading();
+        
     }
 
     /**
