@@ -21,7 +21,13 @@ class DatabaseSeeder extends Seeder
             SkillSeeder::class,
             CompanySeeder::class,
             JobVacancySeeder::class,
-            JobSeekerSeeder::class,
+            JobVacancySkillSeeder::class,
+            JobSeekerProfileSeeder::class,
+            EducationSeeder::class,
+            WorkExperienceSeeder::class,
+            ResumeSeeder::class,
+            UserSkillSeeder::class,
+            SavedJobSeeder::class,
             JobApplicationSeeder::class,
         ]);
     }
