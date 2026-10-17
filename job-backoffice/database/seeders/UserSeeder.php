@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
 use App\Concerns\ReadsJsonData;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class UserSeeder extends Seeder
@@ -20,6 +20,10 @@ class UserSeeder extends Seeder
         foreach ($this->readJson('users') as $row) {
             $user = User::withTrashed()->firstOrNew(['email' => $row['email']]);
 
+            if ($user->trashed()) {
+                $user->restore();
+            }
+
             $user->fill([
                 'name' => $row['name'],
                 'password' => self::DEMO_PASSWORD,
@@ -31,8 +35,8 @@ class UserSeeder extends Seeder
             $user->email_verified_at ??= now();
 
             $user->save();
-
-            $this->command->info('✅ users seeded successfully'); 
         }
+
+        $this->command->info('✅ users seeded successfully');
     }
 }

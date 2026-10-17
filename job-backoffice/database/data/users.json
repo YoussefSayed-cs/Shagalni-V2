@@ -48,5 +48,50 @@
         "name": "Mostafa Ali",
         "email": "mostafa.ali@example.com",
         "role": "job_seeker"
+    },
+    {
+        "name": "Layla Farouk",
+        "email": "layla.farouk@shagalni.test",
+        "role": "admin"
+    },
+    {
+        "name": "Rania El Sherif",
+        "email": "rania@atlasfinance.test",
+        "role": "company_owner"
+    },
+    {
+        "name": "Tamer Samy",
+        "email": "tamer@peoplefirst.test",
+        "role": "company_owner"
+    },
+    {
+        "name": "Sara Maher",
+        "email": "sara.maher@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Khaled Amin",
+        "email": "khaled.amin@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Dina Mostafa",
+        "email": "dina.mostafa@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Mahmoud Fawzy",
+        "email": "mahmoud.fawzy@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Reem Nassar",
+        "email": "reem.nassar@example.com",
+        "role": "job_seeker"
+    },
+    {
+        "name": "Amr Saeed",
+        "email": "amr.saeed@example.com",
+        "role": "job_seeker"
     }
 ]
