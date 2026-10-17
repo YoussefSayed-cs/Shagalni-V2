@@ -34,5 +34,29 @@
         "website": null,
         "email": "careers@deltalogistics.test",
         "phone": null
+    },
+    {
+        "owner_email": "rania@atlasfinance.test",
+        "name": "Atlas Finance Services",
+        "description": "Financial advisory and shared-services firm supporting growing businesses with reporting and accounting operations.",
+        "logo_path": "logos/atlas-finance.png",
+        "industry": "Financial Services",
+        "size": "51-200",
+        "location": "New Cairo, Egypt",
+        "website": "https://atlasfinance.test",
+        "email": "careers@atlasfinance.test",
+        "phone": "+20 100 000 0004"
+    },
+    {
+        "owner_email": "tamer@peoplefirst.test",
+        "name": "PeopleFirst Consulting",
+        "description": "Human-resources consultancy helping Egyptian businesses build hiring, onboarding, and people-operations practices.",
+        "logo_path": "logos/peoplefirst.png",
+        "industry": "Human Resources",
+        "size": "11-50",
+        "location": "Maadi, Cairo, Egypt",
+        "website": "https://peoplefirst.test",
+        "email": "hello@peoplefirst.test",
+        "phone": "+20 100 000 0005"
     }
 ]

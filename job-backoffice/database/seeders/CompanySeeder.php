@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Concerns\ReadsJsonData;
 use App\Models\Company;
 use App\Models\User;
-use App\Concerns\ReadsJsonData;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Arr;
 
@@ -18,10 +18,14 @@ class CompanySeeder extends Seeder
             $owner = User::where('email', $row['owner_email'])->firstOrFail();
 
             // owner_id is unique on companies, so one company per owner.
-            Company::updateOrCreate(
+            $company = Company::withTrashed()->updateOrCreate(
                 ['owner_id' => $owner->id],
                 Arr::except($row, ['owner_email']),
             );
+
+            if ($company->trashed()) {
+                $company->restore();
+            }
         }
         $this->command->info('✅ companies seeded successfully');
     }
