@@ -94,7 +94,7 @@ class JobApplicationLifecycleTest extends TestCase
 
     public function test_invalid_transition_throws_an_exception(): void
     {
-        $this->expectException(\\LogicException::class);
+        $this->expectException(\LogicException::class);
 
         $application = $this->applicationWithStatus(JobApplicationStatus::Pending);
         $application->transitionTo(JobApplicationStatus::Accepted);
