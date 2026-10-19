@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Enums\ExperienceLevel;
 use App\Enums\JobVacancyStatus;
 use App\Enums\JobType;
+use App\Enums\WorkplaceType;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -26,7 +27,6 @@ class JobVacancy extends Model
         'requirements',
         'responsibilities',
         'location',
-        'workplace_type',
         'salary_min',
         'salary_max',
         'application_deadline',
@@ -43,6 +43,7 @@ class JobVacancy extends Model
             'experience_level' => ExperienceLevel::class,
             'status' => JobVacancyStatus::class,
             'type' => JobType::class,
+            'workplace_type' => WorkplaceType::class,
         ];
     }
 
