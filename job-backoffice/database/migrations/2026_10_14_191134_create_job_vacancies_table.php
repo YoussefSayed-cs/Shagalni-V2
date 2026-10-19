@@ -25,7 +25,7 @@ return new class extends Migration
             $table->enum('experience_level', ['entry-level', 'junior' , 'mid-level', 'senior-level']);
             $table->decimal('salary_min', 10, 2)->nullable();
             $table->decimal('salary_max', 10, 2)->nullable();
-            $table->enum('status', ['closed','open','draft'])->default('open');
+            $table->enum('status', ['draft','open','closed'])->default('draft');
             $table->date('application_deadline')->nullable();
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
