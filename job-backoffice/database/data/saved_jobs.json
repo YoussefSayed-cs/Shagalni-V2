@@ -1,86 +1,107 @@
 [
     {
         "user_email": "ahmed.hassan@example.com",
-        "vacancy_title": "Junior Laravel Developer"
+        "vacancy_title": "Junior Laravel Developer",
+        "company_email": "hr@niletech.test"
     },
     {
         "user_email": "ahmed.hassan@example.com",
-        "vacancy_title": "Data Analyst Intern"
+        "vacancy_title": "Data Analyst Intern",
+        "company_email": "hr@niletech.test"
     },
     {
         "user_email": "mona.adel@example.com",
-        "vacancy_title": "UI/UX Designer"
+        "vacancy_title": "UI/UX Designer",
+        "company_email": "jobs@cairodigital.test"
     },
     {
         "user_email": "youssef.tarek@example.com",
-        "vacancy_title": "Senior Full-Stack Engineer"
+        "vacancy_title": "Senior Full-Stack Engineer",
+        "company_email": "hr@niletech.test"
     },
     {
         "user_email": "nour.eldin@example.com",
-        "vacancy_title": "Warehouse Operations Coordinator"
+        "vacancy_title": "Warehouse Operations Coordinator",
+        "company_email": "careers@deltalogistics.test"
     },
     {
         "user_email": "nour.eldin@example.com",
-        "vacancy_title": "Customer Support Agent"
+        "vacancy_title": "Customer Support Agent",
+        "company_email": "careers@deltalogistics.test"
     },
     {
         "user_email": "hana.samir@example.com",
-        "vacancy_title": "SEO & Content Specialist"
+        "vacancy_title": "SEO & Content Specialist",
+        "company_email": "jobs@cairodigital.test"
     },
     {
         "user_email": "hana.samir@example.com",
-        "vacancy_title": "Freelance Social Media Manager"
+        "vacancy_title": "Freelance Social Media Manager",
+        "company_email": "jobs@cairodigital.test"
     },
     {
         "user_email": "mostafa.ali@example.com",
-        "vacancy_title": "Data Analyst Intern"
+        "vacancy_title": "Data Analyst Intern",
+        "company_email": "hr@niletech.test"
     },
     {
         "user_email": "sara.maher@example.com",
-        "vacancy_title": "Frontend React Developer"
+        "vacancy_title": "Frontend React Developer",
+        "company_email": "hr@niletech.test"
     },
     {
         "user_email": "sara.maher@example.com",
-        "vacancy_title": "Node.js API Developer"
+        "vacancy_title": "Node.js API Developer",
+        "company_email": "hr@niletech.test"
     },
     {
         "user_email": "khaled.amin@example.com",
-        "vacancy_title": "Customer Success Supervisor"
+        "vacancy_title": "Customer Success Supervisor",
+        "company_email": "careers@deltalogistics.test"
     },
     {
         "user_email": "khaled.amin@example.com",
-        "vacancy_title": "Logistics Data Coordinator"
+        "vacancy_title": "Logistics Data Coordinator",
+        "company_email": "careers@deltalogistics.test"
     },
     {
         "user_email": "dina.mostafa@example.com",
-        "vacancy_title": "Junior Financial Analyst"
+        "vacancy_title": "Junior Financial Analyst",
+        "company_email": "careers@atlasfinance.test"
     },
     {
         "user_email": "dina.mostafa@example.com",
-        "vacancy_title": "Accounts Payable Specialist"
+        "vacancy_title": "Accounts Payable Specialist",
+        "company_email": "careers@atlasfinance.test"
     },
     {
         "user_email": "mahmoud.fawzy@example.com",
-        "vacancy_title": "Talent Acquisition Specialist"
+        "vacancy_title": "Talent Acquisition Specialist",
+        "company_email": "hello@peoplefirst.test"
     },
     {
         "user_email": "mahmoud.fawzy@example.com",
-        "vacancy_title": "HR Operations Intern"
+        "vacancy_title": "HR Operations Intern",
+        "company_email": "hello@peoplefirst.test"
     },
     {
         "user_email": "reem.nassar@example.com",
-        "vacancy_title": "Performance Marketing Specialist"
+        "vacancy_title": "Performance Marketing Specialist",
+        "company_email": "jobs@cairodigital.test"
     },
     {
         "user_email": "reem.nassar@example.com",
-        "vacancy_title": "SEO & Content Specialist"
+        "vacancy_title": "SEO & Content Specialist",
+        "company_email": "jobs@cairodigital.test"
     },
     {
         "user_email": "amr.saeed@example.com",
-        "vacancy_title": "Logistics Data Coordinator"
+        "vacancy_title": "Logistics Data Coordinator",
+        "company_email": "careers@deltalogistics.test"
     },
     {
         "user_email": "amr.saeed@example.com",
-        "vacancy_title": "Data Analyst Intern"
+        "vacancy_title": "Data Analyst Intern",
+        "company_email": "hr@niletech.test"
     }
 ]
