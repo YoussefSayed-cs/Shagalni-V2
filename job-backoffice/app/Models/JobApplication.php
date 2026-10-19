@@ -6,6 +6,7 @@ use App\Enums\JobApplicationStatus;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use LogicException;
 
 class JobApplication extends Model
 {
@@ -23,7 +24,30 @@ class JobApplication extends Model
     {
         return [
             'status' => JobApplicationStatus::class,
+            'withdrawn_at' => 'datetime',
         ];
+    }
+
+    public function canBeWithdrawn(): bool
+    {
+        return $this->withdrawn_at === null
+            && in_array($this->status, [
+                JobApplicationStatus::PENDING,
+                JobApplicationStatus::UNDER_REVIEW,
+                JobApplicationStatus::SHORTLISTED,
+                JobApplicationStatus::INTERVIEW,
+            ], true);
+    }
+
+    public function withdraw(): void
+    {
+        if (! $this->canBeWithdrawn()) {
+            throw new LogicException(
+                'This application can no longer be withdrawn.'
+            );
+        }
+
+        $this->forceFill(['withdrawn_at' => now()])->save();
     }
 
     /** @return BelongsTo<JobVacancy, $this> */
