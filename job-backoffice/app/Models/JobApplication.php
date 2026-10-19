@@ -18,7 +18,6 @@ class JobApplication extends Model
         'job_vacancy_id',
         'user_id',
         'resume_id',
-        'status',
     ];
 
     protected function casts(): array
