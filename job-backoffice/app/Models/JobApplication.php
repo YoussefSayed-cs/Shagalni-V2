@@ -32,10 +32,10 @@ class JobApplication extends Model
     {
         return $this->withdrawn_at === null
             && in_array($this->status, [
-                JobApplicationStatus::PENDING,
-                JobApplicationStatus::UNDER_REVIEW,
-                JobApplicationStatus::SHORTLISTED,
-                JobApplicationStatus::INTERVIEW,
+                JobApplicationStatus::Pending,
+                JobApplicationStatus::UnderReview,
+                JobApplicationStatus::Shortlisted,
+                JobApplicationStatus::Interview,
             ], true);
     }
 
