@@ -40,20 +40,18 @@ class JobApplicationSeeder extends Seeder
                 );
             }
 
-            $application = JobApplication::withTrashed()->updateOrCreate(
+            $application = JobApplication::updateOrCreate(
                 [
                     'job_vacancy_id' => $vacancy->id,
                     'user_id' => $user->id,
                 ],
                 [
                     'resume_id' => $user->resumes()->first()?->id,
-                    'status' => $status,
                 ],
             );
 
-            if ($application->trashed()) {
-                $application->restore();
-            }
+            $application->status = $status;
+            $application->save();
         }
 
         $this->command->info('Job applications seeded successfully');

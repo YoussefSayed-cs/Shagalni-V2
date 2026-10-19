@@ -6,11 +6,10 @@ use App\Enums\JobApplicationStatus;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\SoftDeletes;
 
 class JobApplication extends Model
 {
-    use HasUuids, SoftDeletes;
+    use HasUuids;
 
     protected $table = 'job_applications';
 
@@ -36,7 +35,7 @@ class JobApplication extends Model
     /** @return BelongsTo<Resume, $this> */
     public function resume(): BelongsTo
     {
-        return $this->belongsTo(Resume::class);
+        return $this->belongsTo(Resume::class)->withTrashed();
     }
 
     /** @return BelongsTo<User, $this> */

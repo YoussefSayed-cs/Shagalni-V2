@@ -10,5 +10,4 @@ enum JobApplicationStatus: string
     case Interview = 'interview';
     case Accepted = 'accepted';
     case Rejected = 'rejected';
-    case Withdrawn = 'withdrawn';
 }
