@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Concerns\ReadsJsonData;
 use App\Models\Company;
 use App\Models\User;
+use App\Enums\CompanyStatus;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Arr;
 
@@ -26,6 +27,9 @@ class CompanySeeder extends Seeder
             if ($company->trashed()) {
                 $company->restore();
             }
+
+            $company->status = CompanyStatus::from($row['status'] ?? 'pending');
+            $company->save();
         }
         $this->command->info('✅ companies seeded successfully');
     }
