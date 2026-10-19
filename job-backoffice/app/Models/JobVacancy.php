@@ -26,6 +26,7 @@ class JobVacancy extends Model
         'description',
         'requirements',
         'workplace_type',
+        'type',
         'experience_level',
         'responsibilities',
         'location',
