@@ -21,21 +21,21 @@ class JobApplicationLifecycleTest extends TestCase
     public function test_each_non_final_status_only_allows_valid_next_steps(): void
     {
         $cases = [
-            JobApplicationStatus::UnderReview => [
+            [
+                JobApplicationStatus::UnderReview,
+                [JobApplicationStatus::Shortlisted, JobApplicationStatus::Rejected],
+            ],
+            [
                 JobApplicationStatus::Shortlisted,
-                JobApplicationStatus::Rejected,
+                [JobApplicationStatus::Interview, JobApplicationStatus::Rejected],
             ],
-            JobApplicationStatus::Shortlisted => [
+            [
                 JobApplicationStatus::Interview,
-                JobApplicationStatus::Rejected,
-            ],
-            JobApplicationStatus::Interview => [
-                JobApplicationStatus::Accepted,
-                JobApplicationStatus::Rejected,
+                [JobApplicationStatus::Accepted, JobApplicationStatus::Rejected],
             ],
         ];
 
-        foreach ($cases as $currentStatus => $allowedStatuses) {
+        foreach ($cases as [$currentStatus, $allowedStatuses]) {
             $application = $this->applicationWithStatus($currentStatus);
 
             foreach (JobApplicationStatus::cases() as $nextStatus) {
