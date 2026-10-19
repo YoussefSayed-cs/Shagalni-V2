@@ -26,6 +26,7 @@ return new class extends Migration
                 'accepted',
                 'rejected',
             ])->default('pending');
+            $table->timestamp('withdrawn_at')->nullable();
             $table->timestamps();
 
             $table->unique(['job_vacancy_id', 'user_id']);
