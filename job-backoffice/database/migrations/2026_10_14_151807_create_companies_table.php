@@ -23,8 +23,12 @@ return new class extends Migration
             $table->string('website')->nullable();
             $table->string('email');
             $table->string('phone')->nullable();
+            $table->json('social_links')->nullable();
+            $table->enum('status', ['pending', 'approved', 'rejected', 'suspended'])->default('pending');
             $table->timestamps();
             $table->softDeletes();
+
+            $table->index('status');
         });
     }
 
