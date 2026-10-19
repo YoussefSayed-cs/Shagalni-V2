@@ -12,10 +12,10 @@ class JobApplicationWithdrawalTest extends TestCase
     public function test_non_final_applications_can_be_withdrawn(): void
     {
         foreach ([
-            JobApplicationStatus::PENDING,
-            JobApplicationStatus::UNDER_REVIEW,
-            JobApplicationStatus::SHORTLISTED,
-            JobApplicationStatus::INTERVIEW,
+            JobApplicationStatus::Pending,
+            JobApplicationStatus::UnderReview,
+            JobApplicationStatus::Shortlisted,
+            JobApplicationStatus::Interview,
         ] as $status) {
             $application = new JobApplication();
             $application->status = $status;
@@ -27,14 +27,13 @@ class JobApplicationWithdrawalTest extends TestCase
     public function test_final_applications_cannot_be_withdrawn(): void
     {
         foreach ([
-            JobApplicationStatus::ACCEPTED,
-            JobApplicationStatus::REJECTED,
+            JobApplicationStatus::Accepted,
+            JobApplicationStatus::Rejected,
         ] as $status) {
             $application = new JobApplication();
             $application->status = $status;
 
             $this->assertFalse($application->canBeWithdrawn());
-            $this->expectNotToPerformAssertions();
         }
     }
 
