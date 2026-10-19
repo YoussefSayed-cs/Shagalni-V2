@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Concerns\ReadsJsonData;
 use App\Enums\UserRole;
+use App\Models\Company;
 use App\Models\JobVacancy;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -19,10 +20,12 @@ class SavedJobSeeder extends Seeder
             $user = User::where('email', $row['user_email'])
                 ->firstOrFail();
 
-            $vacancy = JobVacancy::where(
-                'title',
-                $row['vacancy_title']
-            )->firstOrFail();
+            $company = Company::where('email', $row['company_email'])
+                ->firstOrFail();
+
+            $vacancy = JobVacancy::where('company_id', $company->id)
+                ->where('title', $row['vacancy_title'])
+                ->firstOrFail();
 
             if ($user->role !== UserRole::JOB_SEEKER) {
                 throw new RuntimeException(
