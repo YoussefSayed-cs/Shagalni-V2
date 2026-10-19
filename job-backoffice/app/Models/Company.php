@@ -26,6 +26,7 @@ class Company extends Model
         'website',
         'email',
         'phone',
+        'social_links',
     ];
 
     protected function casts(): array

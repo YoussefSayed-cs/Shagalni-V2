@@ -9,7 +9,8 @@
         "location": "Cairo, Egypt",
         "website": "https://niletech.test",
         "email": "hr@niletech.test",
-        "phone": "+20 100 000 0001"
+        "phone": "+20 100 000 0001",
+        "status": "approved"
     },
     {
         "owner_email": "salma@cairodigital.test",
@@ -21,7 +22,8 @@
         "location": "Giza, Egypt",
         "website": "https://cairodigital.test",
         "email": "jobs@cairodigital.test",
-        "phone": "+20 100 000 0002"
+        "phone": "+20 100 000 0002",
+        "status": "approved"
     },
     {
         "owner_email": "omar@deltalogistics.test",
@@ -33,7 +35,8 @@
         "location": "Alexandria, Egypt",
         "website": null,
         "email": "careers@deltalogistics.test",
-        "phone": null
+        "phone": null,
+        "status": "approved"
     },
     {
         "owner_email": "rania@atlasfinance.test",
@@ -45,7 +48,8 @@
         "location": "New Cairo, Egypt",
         "website": "https://atlasfinance.test",
         "email": "careers@atlasfinance.test",
-        "phone": "+20 100 000 0004"
+        "phone": "+20 100 000 0004",
+        "status": "approved"
     },
     {
         "owner_email": "tamer@peoplefirst.test",
@@ -57,7 +61,8 @@
         "location": "Maadi, Cairo, Egypt",
         "website": "https://peoplefirst.test",
         "email": "hello@peoplefirst.test",
-        "phone": "+20 100 000 0005"
+        "phone": "+20 100 000 0005",
+        "status": "approved"
     },
     {
         "owner_email": "huda@brightmedia.test",
