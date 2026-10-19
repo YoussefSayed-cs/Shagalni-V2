@@ -4,7 +4,6 @@ namespace Tests\Unit;
 
 use App\Enums\JobApplicationStatus;
 use App\Models\JobApplication;
-use LogicException;
 use Tests\TestCase;
 
 class JobApplicationLifecycleTest extends TestCase
@@ -91,6 +90,14 @@ class JobApplicationLifecycleTest extends TestCase
         $this->assertFalse($application->canTransitionTo(JobApplicationStatus::Pending));
         $this->assertFalse($application->canTransitionTo(JobApplicationStatus::Shortlisted));
         $this->assertFalse($application->canTransitionTo(JobApplicationStatus::Interview));
+    }
+
+    public function test_invalid_transition_throws_an_exception(): void
+    {
+        $this->expectException(\\LogicException::class);
+
+        $application = $this->applicationWithStatus(JobApplicationStatus::Pending);
+        $application->transitionTo(JobApplicationStatus::Accepted);
     }
 
     private function applicationWithStatus(JobApplicationStatus $status): JobApplication
