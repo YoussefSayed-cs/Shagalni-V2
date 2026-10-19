@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Concerns\ReadsJsonData;
+use App\Enums\UserRole;
 use App\Models\Resume;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -16,14 +17,20 @@ class ResumeSeeder extends Seeder
     public function run(): void
     {
         foreach ($this->readJson('resumes') as $row) {
-            $user = User::where('email', $row['user_email'])->firstOrFail();
+            $user = User::where('email', $row['user_email'])
+                ->firstOrFail();
 
-            if ($user->role !== 'job_seeker') {
-                throw new RuntimeException("Resume user must be a job seeker: {$row['user_email']}");
+            if ($user->role !== UserRole::JOB_SEEKER) {
+                throw new RuntimeException(
+                    "Resume user must be a job seeker: {$row['user_email']}"
+                );
             }
 
             $resume = Resume::withTrashed()->updateOrCreate(
-                ['user_id' => $user->id, 'file_path' => $row['file_path']],
+                [
+                    'user_id' => $user->id,
+                    'file_path' => $row['file_path'],
+                ],
                 Arr::except($row, ['user_email']),
             );
 
@@ -32,6 +39,6 @@ class ResumeSeeder extends Seeder
             }
         }
 
-        $this->command->info('✅ resumes seeded successfully');
+        $this->command->info('Resumes seeded successfully');
     }
 }

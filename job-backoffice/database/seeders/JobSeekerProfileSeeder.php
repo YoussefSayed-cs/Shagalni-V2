@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Concerns\ReadsJsonData;
+use App\Enums\UserRole;
 use App\Models\JobSeekerProfile;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -16,10 +17,13 @@ class JobSeekerProfileSeeder extends Seeder
     public function run(): void
     {
         foreach ($this->readJson('job_seeker_profiles') as $row) {
-            $user = User::where('email', $row['user_email'])->firstOrFail();
+            $user = User::where('email', $row['user_email'])
+                ->firstOrFail();
 
-            if ($user->role !== 'job_seeker') {
-                throw new RuntimeException("Profile user must be a job seeker: {$row['user_email']}");
+            if ($user->role !== UserRole::JOB_SEEKER) {
+                throw new RuntimeException(
+                    "Profile user must be a job seeker: {$row['user_email']}"
+                );
             }
 
             JobSeekerProfile::updateOrCreate(
@@ -28,6 +32,8 @@ class JobSeekerProfileSeeder extends Seeder
             );
         }
 
-        $this->command->info('✅ job seeker profiles seeded successfully');
+        $this->command->info(
+            'Job seeker profiles seeded successfully'
+        );
     }
 }
