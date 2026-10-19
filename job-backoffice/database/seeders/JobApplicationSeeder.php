@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Concerns\ReadsJsonData;
 use App\Enums\JobApplicationStatus;
 use App\Enums\UserRole;
+use App\Models\Company;
 use App\Models\JobApplication;
 use App\Models\JobVacancy;
 use App\Models\User;
@@ -27,10 +28,12 @@ class JobApplicationSeeder extends Seeder
                 );
             }
 
-            $vacancy = JobVacancy::where(
-                'title',
-                $row['vacancy_title']
-            )->firstOrFail();
+            $company = Company::where('email', $row['company_email'])
+                ->firstOrFail();
+
+            $vacancy = JobVacancy::where('company_id', $company->id)
+                ->where('title', $row['vacancy_title'])
+                ->firstOrFail();
 
             $status = JobApplicationStatus::tryFrom($row['status']);
 
@@ -47,6 +50,7 @@ class JobApplicationSeeder extends Seeder
                 ],
                 [
                     'resume_id' => $user->resumes()->first()?->id,
+                    'withdrawn_at' => null,
                 ],
             );
 
