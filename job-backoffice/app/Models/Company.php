@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\CompanyStatus;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -26,6 +27,14 @@ class Company extends Model
         'email',
         'phone',
     ];
+
+    protected function casts(): array
+{
+    return [
+        'social_links' => 'array',
+        'status' => CompanyStatus::class,
+    ];
+}
 
     /** @return BelongsTo<User, $this> */
     public function owner(): BelongsTo
