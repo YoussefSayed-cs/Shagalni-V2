@@ -40,7 +40,7 @@ class JobApplicationWithdrawalTest extends TestCase
     public function test_withdrawal_is_rejected_for_a_final_application(): void
     {
         $application = new JobApplication();
-        $application->status = JobApplicationStatus::ACCEPTED;
+        $application->status = JobApplicationStatus::Accepted;
 
         $this->expectException(LogicException::class);
 
@@ -50,7 +50,7 @@ class JobApplicationWithdrawalTest extends TestCase
     public function test_already_withdrawn_applications_cannot_be_withdrawn_again(): void
     {
         $application = new JobApplication();
-        $application->status = JobApplicationStatus::INTERVIEW;
+        $application->status = JobApplicationStatus::Interview;
         $application->withdrawn_at = now();
 
         $this->assertFalse($application->canBeWithdrawn());
