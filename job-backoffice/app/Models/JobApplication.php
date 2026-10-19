@@ -1,11 +1,11 @@
 <?php
 
-namespace App\\Models;
+namespace App\Models;
 
-use App\\Enums\\JobApplicationStatus;
-use Illuminate\\Database\\Eloquent\\Concerns\\HasUuids;
-use Illuminate\\Database\\Eloquent\\Model;
-use Illuminate\\Database\\Eloquent\\Relations\\BelongsTo;
+use App\Enums\JobApplicationStatus;
+use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use LogicException;
 
 class JobApplication extends Model
