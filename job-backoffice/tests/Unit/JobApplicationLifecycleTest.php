@@ -5,7 +5,7 @@ namespace Tests\\Unit;
 use App\\Enums\\JobApplicationStatus;
 use App\\Models\\JobApplication;
 use LogicException;
-use PHPUnit\\Framework\\TestCase;
+use Tests\\TestCase;
 
 class JobApplicationLifecycleTest extends TestCase
 {
