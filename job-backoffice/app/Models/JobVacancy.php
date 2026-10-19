@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\ExperienceLevel;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -40,6 +41,7 @@ class JobVacancy extends Model
             'salary_max' => 'decimal:2',
             'application_deadline' => 'date',
             'published_at' => 'datetime',
+            'level' => ExperienceLevel::class,
         ];
     }
 
