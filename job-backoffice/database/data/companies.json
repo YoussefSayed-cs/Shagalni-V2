@@ -58,5 +58,18 @@
         "website": "https://peoplefirst.test",
         "email": "hello@peoplefirst.test",
         "phone": "+20 100 000 0005"
+    },
+    {
+        "owner_email": "huda@brightmedia.test",
+        "name": "Bright Media",
+        "description": "New media studio waiting for admin approval.",
+        "logo_path": null,
+        "industry": "Media",
+        "size": "1-10",
+        "location": "Cairo, Egypt",
+        "website": null,
+        "email": "info@brightmedia.test",
+        "phone": null,
+        "status": "pending"
     }
 ]

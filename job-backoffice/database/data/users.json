@@ -65,6 +65,11 @@
         "role": "company_owner"
     },
     {
+        "name": "Huda Samir",
+        "email": "huda@brightmedia.test",
+        "role": "company_owner"
+    },
+    {
         "name": "Sara Maher",
         "email": "sara.maher@example.com",
         "role": "job_seeker"
