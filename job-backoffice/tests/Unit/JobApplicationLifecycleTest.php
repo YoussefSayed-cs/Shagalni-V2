@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\\Unit;
+namespace Tests\Unit;
 
-use App\\Enums\\JobApplicationStatus;
-use App\\Models\\JobApplication;
+use App\Enums\JobApplicationStatus;
+use App\Models\JobApplication;
 use LogicException;
-use Tests\\TestCase;
+use Tests\TestCase;
 
 class JobApplicationLifecycleTest extends TestCase
 {
