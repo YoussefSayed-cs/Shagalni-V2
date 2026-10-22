@@ -21,7 +21,7 @@ class EnsureHasBackofficeAccess
 
         if (Auth::check()) {
             $role = Auth::user()->role;
-            $hasAccess = in_array($role, [UserRole::ADMIN, UserRole::COMPANY_Owner]);
+            $hasAccess = in_array($role, [UserRole::ADMIN, UserRole::COMPANY]);
         }
 
         if (!$hasAccess) {
